@@ -49,4 +49,21 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+        <version>2.3</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <scm>
+    <connection>scm:git:git@github.com:longthanhtran/junit-in-5mins.git</connection>
+    <developerConnection>scm:git:git@github.com:longthanhtran/junit-in-5mins.git</developerConnection>
+    <url>scm:git:git@github.com:longthanhtran/junit-in-5mins.git</url>
+  </scm>
+
 </project>
