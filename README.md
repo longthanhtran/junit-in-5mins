@@ -8,3 +8,4 @@
 
 ## Hints
 * Use absolute path for classpath.
+* Be sure to use `mvn install`, `mvn compile` and put the built jar file into classpath of sublime-project file.
