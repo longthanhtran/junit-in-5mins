@@ -1,0 +1,809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"artifactId"
+			],
+			[
+				"dep",
+				"dependency"
+			],
+			[
+				"data",
+				"data_file"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"to",
+				"to_properties"
+			],
+			[
+				"Redis",
+				"RedisError"
+			],
+			[
+				"Com",
+				"CompB"
+			],
+			[
+				"font",
+				"font-stack"
+			],
+			[
+				"align",
+				"alignment_space_chars\t(Base File.sublime-settings)"
+			],
+			[
+				"alignment",
+				"alignment_chars\t(Base File.sublime-settings)"
+			],
+			[
+				"DB",
+				"DBNAME"
+			],
+			[
+				"DB_",
+				"DB_SERVER"
+			],
+			[
+				"valid",
+				"validate_token"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "gitlab token: May 2017 \"87J_zxLvQxaw7PRQ1Ryx\"\n\n<IfModule mod_expires.c>\n        ExpiresActive on\n        ExpiresDefault \"access plus 1 month\"\n\n        ExpiresByType text/css  \"access plus 1 day\"\n        ExpiresByType application/javascript    \"access plus 1 day\"\n</IfModule>\n\ndocker run -d -P --name spring -v ~/works/io.vsource.env/build/libs:/spring openjdk java -jar /spring/io.vsource.env-0.0.1-SNAPSHOT.jar\n\n\n# Steps run use docker\nexport SPRING_DATASOURCE_URL=jdbc:mysql://172.17.0.1:3306/spring_env\n\ndocker run -e SPRING_DATASOURCE_URL=jdbc:mysql://172.17.0.1:3306/spring_env -itd -P --name spring -v ~/works/io.vsource.env/build/libs:/spring openjdk\ndocker exec spring java -jar /spring/io.vsource.env-0.0.1-SNAPSHOT.jar\n\n\ndocker exec -ti spring bash\n\njava -jar /spring/io.vsource.env-0.0.1-SNAPSHOT.jar\n\nmvn package -Dmaven.test.skip=true && java -jar target/amplify-0.1.0.jar\n\namp1if(y)\nmysql -u admin -h amplify.clba8biwklk2.us-east-1.rds.amazonaws.com -p\n\nlong.thanh.tran@gmail.com\nohg0kaePhohg\n\n\nGeneratedValue cannot be resolved to a type ViewingProfileHistory.java  /complete/src/main/java/vsource/amplify/model   line 16 Java Problem\n\nDescription Resource    Path    Location    Type\nThe project cannot be built until build path errors are resolved    complete        Unknown Java Problem\n\nDescription Resource    Path    Location    Type\nArchive for required library: '/home/tt1/.m2/repository/com/amazonaws/aws-java-sdk-codedeploy/1.10.32/aws-java-sdk-codedeploy-1.10.32.jar' in project 'complete' cannot be read or is not a valid ZIP file  complete        Build path  Build Path Problem\n\namplify\nshe3Ieshu9ae\n\n\n=================== Spring security =======================\no.s.security.saml.log.SAMLDefaultLogger  : AuthNResponse;FAILURE;127.0.0.1;athenahealth;https://idp.vsource.io/simplesaml/saml2/idp/metadata.php;;;org.opensaml.common.SAMLException: InResponseToField of the Response doesn't correspond to sent message a51f6g9j6138ieea2e6h1di81h69c17\n    at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.processAuthenticationResponse(WebSSOProfileConsumerImpl.java:139)\n    at org.springframework.security.saml.SAMLAuthenticationProvider.authenticate(SAMLAuthenticationProvider.java:87)\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454)\n    at sun.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:498)\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)\n    at com.sun.proxy.$Proxy153.authenticate(Unknown Source)\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454)\n    at sun.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:498)\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)\n    at com.sun.proxy.$Proxy153.authenticate(Unknown Source)\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454)\n    at sun.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:498)\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)\n    at com.sun.proxy.$Proxy153.authenticate(Unknown Source)\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454)\n    at sun.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\n\ncurl -X POST --data-urlencode 'payload={\"channel\": \"#general\", \"username\": \"webhookbot\", \"text\": \"This is posted to #general and comes from a bot named webhookbot.\", \"icon_emoji\": \":ghost:\"}' https://hooks.slack.com/services/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\n\n\n2017-06-02 04:04:15.733  INFO 23940 --- [tp2044272527-11] o.s.security.saml.log.SAMLDefaultLogger  : AuthNResponse;FAILURE;127.0.0.1;staging;https://api.staging.vsource.io/simplesaml/saml2/idp/metadata.php;;;org.opensaml.common.SAMLE\nxception: Response doesn't have any valid assertion which would pass subject validation\n        at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.processAuthenticationResponse(WebSSOProfileConsumerImpl.java:229)\n        at org.springframework.security.saml.SAMLAuthenticationProvider.authenticate(SAMLAuthenticationProvider.java:87)\n        at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)\n        at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454)\n        at org.springframework.security.saml.SAMLProcessingFilter.attemptAuthentication(SAMLProcessingFilter.java:87)\n        at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.saml.SAMLEntryPoint.doFilter(SAMLEntryPoint.java:103)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.saml.metadata.MetadataDisplayFilter.doFilter(MetadataDisplayFilter.java:84)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.saml.metadata.MetadataGeneratorFilter.doFilter(MetadataGeneratorFilter.java:87)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n        at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)\n        at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)\n        at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)\n        at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)\n        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)\n        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)\n        at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)\n        at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)\n        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)\n        at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)\n        at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)\n        at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)\n        at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)\n        at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)\n        at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)\n        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\n        at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:397)\n        at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)\n        at org.eclipse.jetty.server.Server.handle(Server.java:524)\n        at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)\n        at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)\n        at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)\n        at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)\n        at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)\n        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)\n        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)\n        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)\n        at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)\n        at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)\n        at java.lang.Thread.run(Thread.java:745)\nCaused by: org.springframework.security.authentication.CredentialsExpiredException: Authentication statement is too old to be used with value 2017-06-02T01:26:42.000Z\n        at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.verifyAuthenticationStatement(WebSSOProfileConsumerImpl.java:538)\n        at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.verifyAssertion(WebSSOProfileConsumerImpl.java:308)\n        at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.processAuthenticationResponse(WebSSOProfileConsumerImpl.java:214)\n        ... 54 more\n\n4aba231136536f94\n6274c7c96bd21a21\n5e3f8e25a70b6f8f\nd6593c1e4c3347f7\n4cb8666d751924ba\n7b974aa0c4b4b91a\na68848a5f3a7de66\ncba6558b74d66ef1\n122c7295b0aacfa7\n0ddedc1d8675f3c7\n\nJun_2017\nKCY6PWf6BzdFbExzoVzX\n\n%9Cc5@LN\nmysql -u amplify -h vsstaging.clba8biwklk2.us-east-1.rds.amazonaws.com -p amplify\n\nsonar@localhost\nuegiefie9Yoh\n\nhttps://serverfault.com/questions/763523/copying-an-ebs-snapshot-to-s3-for-low-cost-storage\n\nCaused by: org.springframework.security.authentication.CredentialsExpiredException: Authentication statement is too old to be used with value 2017-06-07T02:31:17.000Z\n    at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.verifyAuthenticationStatement(WebSSOProfileConsumerImpl.java:538)\n    at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.verifyAssertion(WebSSOProfileConsumerImpl.java:308)\n    at org.springframework.security.saml.websso.WebSSOProfileConsumerImpl.processAuthenticationResponse(WebSSOProfileConsumerImpl.java:214)\n    ... 273 more\n\n\nhttps://stackoverflow.com/questions/21097528/moving-spring-security-to-java-config-where-does-authentication-success-handler\nhttps://stackoverflow.com/questions/25500652/spring-security-i-need-to-handle-credentialsexpiredexception-but-it-doesnt-wor\n\nauthenticationFailureHandler CredentialsExpiredException\n\n2017-06-07 02:09:14.164  INFO 7519 --- [qtp277911676-12] o.s.security.saml.log.SAMLDefaultLogger  : LogoutRequest;FAILURE;127.0.0.1;staging;;_11cd8f57a1c448c34ff6a2e3df2b2938ede927226e;;org.springframework.security.saml.SAMLStatusException: LogoutRequest is required to be signed by the entity policy\n    at org.springframework.security.saml.websso.SingleLogoutProfileImpl.processLogoutRequest(SingleLogoutProfileImpl.java:140)\n    at org.springframework.security.saml.SAMLLogoutProcessingFilter.processLogout(SAMLLogoutProcessingFilter.java:178)\n    at org.springframework.security.saml.SAMLLogoutProcessingFilter.doFilter(SAMLLogoutProcessingFilter.java:104)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.saml.SAMLEntryPoint.doFilter(SAMLEntryPoint.java:103)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.saml.metadata.MetadataDisplayFilter.doFilter(MetadataDisplayFilter.java:84)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.saml.metadata.MetadataGeneratorFilter.doFilter(MetadataGeneratorFilter.java:87)\n    at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)\n    at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)\n    at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n\n2017-06-07 08:59:35.167  INFO 11297 --- [qtp522045984-19] o.s.security.saml.log.SAMLDefaultLogger  : LogoutRequest;FAILURE;127.0.0.1;staging;;_6917b5b8d8f72c6b07a24e18908ccb4886fe1f0f9d;;org.springframework.security.saml.SAMLStatusException: LogoutRequest is required to be signed by the entity policy\n\n\nUnable to generate NameID. Check the userid.attribute option.\n\nsonar (admin / uegiefie9Yoh)\n\n\n    at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [jetty-util-9.3.11.v20160721.jar:9.3.11.v20160721]\n    at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [jetty-util-9.3.11.v20160721.jar:9.3.11.v20160721]\n    at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [jetty-util-9.3.11.v20160721.jar:9.3.11.v20160721]\n    at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [jetty-util-9.3.11.v20160721.jar:9.3.11.v20160721]\n    at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]\nCaused by: java.lang.NullPointerException: null\n    at vsource.amplify.service.UserService.getLoginUser(UserService.java:277) ~[classes/:na]\n    at vsource.amplify.controller.ScoopRestController.rateScoop(ScoopRestController.java:127) ~[classes/:na]\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]\n    at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]\n    at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    ... 48 common frames omitted\n\nCREATE TABLE primer.SPRING_SESSION (\n  SESSION_ID char(36) NOT NULL,\n  CREATION_TIME bigint(20) NOT NULL,\n  LAST_ACCESS_TIME bigint(20) NOT NULL,\n  MAX_INACTIVE_INTERVAL int(11) NOT NULL,\n  PRINCIPAL_NAME varchar(100) DEFAULT NULL,\n  PRIMARY KEY (SESSION_ID),\n  KEY SPRING_SESSION_IX1 (LAST_ACCESS_TIME)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;\n\nCREATE TABLE primer.SPRING_SESSION_ATTRIBUTES (\n  SESSION_ID char(36) NOT NULL,\n  ATTRIBUTE_NAME varchar(200) NOT NULL,\n  ATTRIBUTE_BYTES blob NOT NULL,\n  PRIMARY KEY (SESSION_ID,ATTRIBUTE_NAME),\n  KEY SPRING_SESSION_ATTRIBUTES_IX1 (SESSION_ID),\n  CONSTRAINT SPRING_SESSION_ATTRIBUTES_FK FOREIGN KEY (SESSION_ID) REFERENCES SPRING_SESSION (SESSION_ID) ON DELETE CASCADE\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;\n\n[Test] Many candidates are not interested in the job even though this is the assignment we agreed on. Many emails are invalid. We were able to look them up on LinkedIn but the batch was not clear.\n\n\n    //compile('org.springframework.boot:spring-boot-starter-web')\n\n\nhttps://stackoverflow.com/questions/24225446/autowiring-beans-defined-in-xml-into-springs-java-config\n\nhttps://stackoverflow.com/questions/30528636/saml-login-errors\n\nserver ntp1.jst.mfeed.ad.jp iburst\nserver ntp2.jst.mfeed.ad.jp iburst\nserver ntp3.jst.mfeed.ad.jp iburst\n\n\n\n\n2017-06-20 10:31:03.881  INFO 14414 --- [           main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 8080 (http/1.1)\n2017-06-20 10:31:03.889  INFO 14414 --- [           main] vsource.amplify.Application              : Started Application in 23.056 seconds (JVM running for 41.45)\n2017-06-20 10:31:06.386  INFO 14414 --- [tp1615717766-14] o.s.s.s.m.MetadataGeneratorFilter        : No default metadata configured, generating with default values, please pre-configure metadata for production use\n2017-06-20 10:31:06.402  INFO 14414 --- [tp1615717766-14] o.s.s.s.m.MetadataGeneratorFilter        : Created default metadata for system with entityID: localhost-demo\n2017-06-20 10:31:06.548  WARN 14414 --- [tp1615717766-14] o.eclipse.jetty.servlet.ServletHandler   : Error for /\n\njava.lang.StackOverflowError: null\n    at java.lang.Exception.<init>(Exception.java:102) ~[na:1.8.0_131]\n    at java.lang.ReflectiveOperationException.<init>(ReflectiveOperationException.java:89) ~[na:1.8.0_131]\n    at java.lang.reflect.InvocationTargetException.<init>(InvocationTargetException.java:72) ~[na:1.8.0_131]\n    at sun.reflect.GeneratedMethodAccessor145.invoke(Unknown Source) ~[na:na]\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]\n    at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at com.sun.proxy.$Proxy158.authenticate(Unknown Source) ~[na:na]\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199) ~[spring-security-core-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454) ~[spring-security-config-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n    at sun.reflect.GeneratedMethodAccessor145.invoke(Unknown Source) ~[na:na]\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]\n    at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at com.sun.proxy.$Proxy158.authenticate(Unknown Source) ~[na:na]\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199) ~[spring-security-core-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454) ~[spring-security-config-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n    at sun.reflect.GeneratedMethodAccessor145.invoke(Unknown Source) ~[na:na]\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]\n    at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]\n    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]\n    at com.sun.proxy.$Proxy158.authenticate(Unknown Source) ~[na:na]\n    at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199) ~[spring-security-core-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n    at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:454) ~[spring-security-config-4.1.1.RELEASE.jar:4.1.1.RELEASE]\n\n\n2017-06-23 01:15:24.006 ERROR 25523 --- [pool-2-thread-1] v.amplify.service.RestClientService      : msg error: org.springframework.web.client.ResourceAccessException: I/O error on POST request for \"https://clocal.vsource.io/index.php/api/jobs\": Connect to clocal.vsource.io:443 [clocal.vsource.io/192.168.10.62] failed: Connection timed out; nested exception is org.apache.http.conn.ConnectTimeoutException: Connect to clocal.vsource.io:443 [clocal.vsource.io/192.168.10.62] failed: Connection timed out\n\n\nvsource.integration.url=https://clocal.vsource.io/index.php/api/\n\nvsource.integration.url=https://glandore.vsource.io/index.php/api/\n\n2017-06-22 22:25:34.709  WARN 9195 --- [qtp116434304-38] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported\n\n208.78.142.232 - - [22/Jun/2017:22:25:34 +0000] \"POST /saml/SSO HTTP/1.1\" 405 264\n\n\nsonar\n-----\ntt1 / ri5Eo7ieP0Me\n\nmvn archetype:generate -DgroupId=com.mycompany -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false\n\n// [SublimeLinter javac-lint:all,-deprecation,-cp,$HOME/.m2/repository/junit/junit/4.12/junit-4.12.jar:$HOME/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar]",
+			"settings":
+			{
+				"buffer_size": 25387,
+				"line_ending": "Unix",
+				"name": "gitlab token: May 2017 \"87J_zxLvQxaw7PRQ1Ryx\""
+			}
+		},
+		{
+			"file": "maven-in-5-mins.sublime-project",
+			"settings":
+			{
+				"buffer_size": 353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test/java/com/mycompany/AppTest.java",
+			"settings":
+			{
+				"buffer_size": 338,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".sublimelinterrc",
+			"settings":
+			{
+				"buffer_size": 304,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 277.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: Java"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tt1/works/maven-in-5-mins/my-app",
+		"/home/tt1/works/maven-in-5-mins/my-app/src",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/test",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/test/java",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/test/java/com",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/test/java/com/mycompany"
+	],
+	"file_history":
+	[
+		"/home/tt1/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/tt1/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/tt1/works/maven-in-5-mins/my-app/.sublimelinterrc",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/test/java/com/mycompany/AppTest.java",
+		"/home/tt1/works/maven-in-5-mins/my-app/pom.xml",
+		"/home/tt1/works/maven-in-5-mins/my-app/src/main/java/com/mycompany/App.java",
+		"/home/tt1/works/amplify/flyway/sql/V2__Alter_name_of_user_id_4.sql",
+		"/home/tt1/works/amplify/flyway/conf/flyway.conf",
+		"/home/tt1/works/Hello.java",
+		"/home/tt1/Documents/loginuserpass.php",
+		"/home/tt1/works/amplify.service",
+		"/home/tt1/Desktop/404.txt",
+		"/home/tt1/works/amplify/complete/application.properties",
+		"/home/tt1/works/capistrano/sinatrarb/config/deploy.rb",
+		"/home/tt1/works/capistrano/sinatrarb/config/deploy/staging.rb",
+		"/home/tt1/works/capistrano/sinatrarb/config/deploy/production.rb",
+		"/home/tt1/Downloads/sonar/sonarqube-5.6.6/conf/sonar.properties",
+		"/home/tt1/works/idp_frontend/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+		"/home/tt1/works/companies/spec/company_spec.rb",
+		"/home/tt1/works/companies/lib/company.rb",
+		"/home/tt1/works/companies/Gemfile",
+		"/home/tt1/works/companies/spec/spec_helper.rb",
+		"/home/tt1/works/companies/lib/order.rb",
+		"/home/tt1/works/companies/spec/order_spec.rb",
+		"/home/tt1/works/webpack_tutor/properties_maker.js",
+		"/home/tt1/works/webpack_tutor/input.yml",
+		"/home/tt1/works/webpack_tutor/webpack.config.js",
+		"/home/tt1/works/webpack_tutor/page.html",
+		"/home/tt1/works/webpack_tutor/package.json",
+		"/home/tt1/works/webpack_tutor/app.js",
+		"/home/tt1/works/webpack_tutor/bar.js",
+		"/home/tt1/works/docker/helloworld/app.py",
+		"/home/tt1/works/docker/helloworld/Dockerfile",
+		"/home/tt1/works/docker/helloworld/requirements.txt",
+		"/home/tt1/works/docker/amplify/docker-composer.yml",
+		"/home/tt1/works/demo_syntax.vue",
+		"/home/tt1/works/idp_frontend/resources/assets/js/bootstrap.js",
+		"/home/tt1/works/prometheus/Dockerfile",
+		"/home/tt1/works/prometheus/prometheus.yml",
+		"/home/tt1/works/docker/notes.md",
+		"/home/tt1/works/docker/amplify/Dockerfile",
+		"/home/tt1/works/lara-vali/app/Providers/AppServiceProvider.php",
+		"/home/tt1/works/lara-vali/routes/web.php",
+		"/home/tt1/works/lara-vali/app/Http/Controllers/PostController.php",
+		"/home/tt1/works/lara-vali/resources/views/post_completed.blade.php",
+		"/home/tt1/works/lara-vali/resources/views/index.blade.php",
+		"/home/tt1/works/idp_frontend/resources/views/vendor/post_completed.blade.php",
+		"/home/tt1/works/idp_frontend/resources/views/idp_users/new.blade.php",
+		"/home/tt1/works/idp_frontend/routes/web.php",
+		"/home/tt1/works/docker/Dockerfile",
+		"/home/tt1/works/idp_frontend/vendor/guzzlehttp/guzzle/src/Client.php",
+		"/home/tt1/works/breadcrumbs/modules/management/controllers/rest/UserController.php",
+		"/home/tt1/works/breadcrumbs/components/VService.php",
+		"/home/tt1/works/breadcrumbs/controllers/rest/RestNonActiveController.php",
+		"/home/tt1/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/tt1/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+		"/home/tt1/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/tt1/works/io.vsource.env/src/main/java/io/vsource/env/controller/MainController.java",
+		"/home/tt1/works/io.vsource.env/src/main/resources/templates/index.twig",
+		"/home/tt1/works/io.vsource.env/src/main/resources/templates/project.twig",
+		"/home/tt1/works/idp_frontend/config/database.php",
+		"/home/tt1/works/idp_frontend/.env",
+		"/home/tt1/works/idp_frontend/app/User.php",
+		"/home/tt1/works/deployment_journey/db_creation.sql",
+		"/home/tt1/works/deployment_journey/test.sh",
+		"/home/tt1/works/idp_frontend/resources/views/idp_users/index.blade.php",
+		"/home/tt1/works/idp_frontend/app/Http/Controllers/IdpUserController.php",
+		"/home/tt1/works/idp_frontend/tests/Browser/IdpUserCreationTest.php",
+		"/home/tt1/works/idp_frontend/app/IdpUser.php",
+		"/home/tt1/works/idp_frontend/tests/Unit/ExampleTest.php",
+		"/home/tt1/works/idp_frontend/resources/views/welcome.blade.php",
+		"/home/tt1/works/idp_frontend/user_creation_flow.md",
+		"/home/tt1/works/idp_frontend/resources/views/errors/405.blade.php",
+		"/home/tt1/works/idp_frontend/resources/views/idp_users/email_updated.blade.php",
+		"/home/tt1/works/idp_frontend/resources/views/idp_users/confirmation.blade.php",
+		"/home/tt1/works/idp_frontend/resources/views/errors/404.blade.php",
+		"/home/tt1/works/idp_frontend/app/Http/Controllers/Auth/RegisterController.php",
+		"/home/tt1/works/idp_frontend/resources/views/layouts/app.blade.php",
+		"/home/tt1/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/tt1/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 112.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    x",
+			"`",
+			"List",
+			"277",
+			"`",
+			"job",
+			"forceA",
+			"tripping",
+			"website",
+			"c_skill_tags",
+			"c_employment",
+			"c_education",
+			"c_address",
+			"c_details",
+			"jobs",
+			"candidates",
+			"submitted",
+			"u",
+			"U",
+			"'\\),",
+			"', '",
+			"^.*\\('",
+			"`",
+			"QUERY",
+			"register",
+			"'",
+			" COLLATE utf8mb4_unicode_ci",
+			"`"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"pierpoint",
+			"",
+			"=",
+			"",
+			"`",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25387,
+								25387
+							]
+						],
+						"settings":
+						{
+							"auto_name": "gitlab token: May 2017 \"87J_zxLvQxaw7PRQ1Ryx\"",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"default_dir": "/home/tt1/works/idp_frontend",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "maven-in-5-mins.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										34,
+										35
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										32,
+										33
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Babel/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/test/java/com/mycompany/AppTest.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".sublimelinterrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "maven-in-5-mins.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"web",
+				"idp_frontend/routes/web.php"
+			],
+			[
+				"usercon",
+				"breadcrumbs/modules/management/controllers/rest/UserController.php"
+			],
+			[
+				"nonaci",
+				"breadcrumbs/controllers/rest/RestNonActiveController.php"
+			],
+			[
+				"vservice",
+				"breadcrumbs/components/VService.php"
+			],
+			[
+				"confi",
+				"resources/views/idp_users/confirmation.blade.php"
+			],
+			[
+				"confirma",
+				"resources/views/idp_users/confirmation.blade.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"web.php",
+				"routes/web.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

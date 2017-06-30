@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "SublimeLinter": {
+    "linters":
+    {
+      "javac": {
+        "lint": "all",
+        "args": [
+          "-encoding", "UTF8",
+          "-cp", "/home/tt1/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/tt1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tt1/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+        ]
+      }
+    }
+  }
+}
