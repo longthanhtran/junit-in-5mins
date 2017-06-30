@@ -16,5 +16,12 @@
         ]
       }
     }
+  },
+  "settings":
+  {
+    "java_import_path":
+    [
+      "/home/tt1/.m2/src.zip"
+    ]
   }
 }
